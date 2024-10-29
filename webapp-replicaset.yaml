@@ -18,7 +18,7 @@ spec:
         image: 503015272051.dkr.ecr.us-east-1.amazonaws.com/my_app:latest
         env:
         - name: DBHOST
-          value: "mysql-pod.mysql.svc.cluster.local"
+          value: "mysql-service.mysql.svc.cluster.local"
         - name: DBPORT
           value: "3306"
         - name: DBUSER
